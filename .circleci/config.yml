@@ -38,7 +38,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.m2
-          key: v1-quarkus-fuji-{{ checksum "pom.xml" }}
+          key: v1-quarkus-tlalmeida-{{ checksum "pom.xml" }}
 
       # Standard maven build and test phases - does not perform a native build (or verify)
       # ########################
